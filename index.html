@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show-Strength-Password-Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="input_box">
+        <input
+          oninput="weakFunc()"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Your Password"
+        />
+        <img src="img/arrow.png" />
+        <p id="massege">Your Password <span id="strong"></span></p>
+      </div>
+    </div>
+
+    <!-- idea:--------JS Loading...------------>
+    <script src="script.js"></script>
+  </body>
+</html>
